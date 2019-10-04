@@ -1,0 +1,117 @@
+.item {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 5px;
+  padding-right: 3px;
+  border-radius: 5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: #ffffff;
+}
+.pillAlignment {
+  width: 100%;
+  background-color: #ffffff;
+}
+.pointer {
+  padding-top: 2px;
+  cursor: pointer;
+}
+.itemList {
+  position: absolute;
+  top: 11.5rem;
+  width: 100%;
+  z-index: 0;
+}
+.removeItem {
+  background-color: #ffffff;
+}
+.editSwitch {
+  display: flex;
+  align-items: flex-start;
+}
+.editSwitch > input {
+  width: 100%;
+  padding-left: 11px;
+  color: #000000;
+  box-shadow: none;
+}
+
+.editSwitch,
+.itemEdit {
+  background-color: #ffffff;
+}
+.itemEdit {
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+
+div[role='listbox'] > ul {
+  position: absolute;
+  left: -1px;
+  top: 34px;
+  width: 100%;
+  border: none;
+  background-color: #ffffff;
+  z-index: 11;
+}
+div[role='listbox'] > ul > li {
+  padding: 9px 0;
+  font-size: 18px;
+  color: #000000;
+  cursor: pointer;
+}
+div[role='listbox'] > ul > li,
+div[role='listbox'] > ul > li > span {
+  background-color: #ffffff;
+}
+
+.itemEdit > div > input.react-autosuggest__input {
+  width: 100%;
+  padding: 0;
+  padding-left: 7px;
+  color: #8c8b8d;
+  box-shadow: none;
+}
+.editBlock {
+  position: absolute;
+  right: 0;
+}
+.editBlock > button {
+  background-color: #ffffff;
+}
+/* TO HIGHLIGHT SUGGESTIONS */
+div[role='listbox'] > ul > li.react-autosuggest__suggestion--highlighted,
+div[role='listbox'] > ul > li.react-autosuggest__suggestion--highlighted > span {
+  color: #ffffff;
+  background-color: #7b8efb;
+}
+
+
+/* THESE ARE SEMANTIC OVER-RIDES */
+button {
+  border: none;
+  background-color: inherit;
+}
+:focus {
+  outline: none;
+}
+i.icon {
+  padding: 5px 0;
+  font-size: 2.75rem;
+  background-color: #ffffff;
+}
+.ui.inverted.dimmer,
+.ui.dimmer > .content {
+  background-color: transparent;
+}
+.ui.inverted.dimmer .ui.loader, .ui.loader,
+.ui.inverted.dimmer .ui.loader:after {
+  border-color: #7f8ff4 #0000 #0000;
+  background-color: #ffffff;
+}
+.ui.inverted.dimmer .ui.loader:before {
+  border-color: #0000;
+}

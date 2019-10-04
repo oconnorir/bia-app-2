@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'IrishUncialfabeta-Bold';
+  src: local('IrishUncialfabeta-Bold'), url(./fonts/IrishUncialfabeta-Bold.ttf) format('truetype');
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #373f5d;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #373f5d !important;
+  height: 100vh;
+}

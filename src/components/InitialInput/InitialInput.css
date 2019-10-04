@@ -1,0 +1,73 @@
+.initialInput_container {
+  position:  absolute;
+  width: 100%;
+  z-index: 11;
+  color: #9c9c9c;
+  background-color: #f5f6fa;
+}
+.form {
+  position: relative;
+  height: 11.5rem;
+  padding: 22px 18px;
+  border: 0;
+  background: #fff;
+  color:#a3a3a3;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+.initialInput_container--loading {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+}
+.form__field {
+}
+/* DIV THAT HOLDS INITIAL INPUT */
+form > div[role='combobox'],
+div[role='combobox'] {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+}
+/* INIITAL INPUT */
+div[role='combobox'] > input[aria-autocomplete] {
+  width: 100%;
+  padding: 23px 3px 23px 15px;
+  border: none;
+  font-size: 1.8rem;
+  background-color: #fff;
+  color: #a3a3a3;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+  outline: 0;
+}
+
+form > div[role='combobox'] > div[role='listbox'] {
+  width: 100%;
+  position: absolute;
+  top: 35px;
+  right: -1px;
+}
+
+i.icon.initialInput_container__icon {
+  margin-right: 0;
+  font-size: 1.5rem;
+  background-color: #7f8ff4;
+}
+/* POSITION FOR INITIAL ADD ITEM BUTTON */
+.form > button.btn {
+  position: absolute;
+  top: 3.3rem;
+}
+/* SUGGESTION LIST */
+.react-autosuggest__suggestion {
+  list-style: none;
+}
+
+/* THESE ARE SEMANTIC OVER-RIDES */
+.ui.inverted.dimmer {
+  width: 10%;
+  left: 43.5% !important;
+}
+

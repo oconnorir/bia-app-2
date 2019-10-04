@@ -1,0 +1,10 @@
+.ListItem {
+  margin-top: 8px;
+  list-style: none;
+}
+.even {
+  border: .20rem solid #ffbcfc;
+}
+.odd {
+  border: .20rem solid #51c362;
+}

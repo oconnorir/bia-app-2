@@ -1,0 +1,35 @@
+{
+  "name": "grocery_list_app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-autosuggest": "^9.4.3",
+    "react-autowhatever": "^10.2.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-scripts": "^3.2.0",
+    "react-themeable": "^1.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.84.0",
+    "serve": "^10.1.2"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

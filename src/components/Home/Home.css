@@ -1,0 +1,12 @@
+.home {
+  position: relative;
+  height: inherit;
+}
+.heading {
+  height: 9.5rem;
+  margin-top: 1rem !important;
+  margin-left: 1.4rem;
+  color: #00c754;
+  font-size: 9rem;
+  font-family: 'IrishUncialfabeta-Bold';
+}
