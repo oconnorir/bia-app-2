@@ -1,6 +1,6 @@
 # Bia
 
-[Bia](https://bia-grocery-app.herokuapp.com/) is a grocery list app created using React and Redux with a [Node API](https://github.com/oconnorir/bia-api-2) that serves up the data. I ran both locally during development and now they are hosted on Heroku.
+[Bia](https://bia-grocery-app.herokuapp.com/) is a grocery list app created using React and Redux with a [REST API](https://github.com/oconnorir/bia-api-2) that serves up the data. I ran both locally during development and now they are hosted on Heroku.
 
 ### `Who is Bia for`
 
