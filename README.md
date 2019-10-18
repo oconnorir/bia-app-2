@@ -4,7 +4,7 @@
 
 ### `Who is Bia for`
 
-Bia came about from wanting to create something simple that people could use everyday. The motive behind it was to show my Mom that technology could be easy and useful.
+Bia came about from wanting to create something simple that everyone could use everyday. The motive behind it was to show my Mom that technology could be easy and useful.
 
 ### `What Bia means`
 
