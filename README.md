@@ -12,4 +12,4 @@ Bia is the Irish word for food. And Irish being my ancestry, I wanted to give Bi
 
 ### `Where is Bia's future`
 
-There are a few things I see for Bia's future. A login process for personalized use (in progress) and a selector and seperate database for other items other than food to name just a couple.
+There are a few things I see for Bia's future. A login process for personalized use (in progress) and a selector and seperate database for items other than food to name just a couple.
